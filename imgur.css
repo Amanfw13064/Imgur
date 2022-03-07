@@ -150,7 +150,11 @@ margin: 1%;
 text-align: center;
 color: white;
 border-radius: 4px;
+transition: all ease-in-out 1s;
 
+}
+#imgur>div:hover{
+    transform: scale(0.9);
 }
 #imgur>div>img{
 width: 100%;
